@@ -1,0 +1,104 @@
+
+   [
+    {
+      "id": 1,
+      "name": "Cheese Burger",
+      "price": 389.00,
+      "image": "assets/chease_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+    },
+    {
+      "id": 2,
+      "name": "Chicken Burger",
+      "price": 369.00,
+      "image": "assets/chiken_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+
+    },
+    {
+      "id": 3,
+      "name": "Aloo Burger",
+      "price": 359.00,
+      "image": "assets/chiken_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+
+    },
+    {
+      "id": 4,
+      "name": "Chese and Chips Burger",
+      "price": 349.00,
+      "image": "assets/chiken_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+
+    },
+    {
+      "id": 5,
+      "name": "Paneer Burger",
+      "price": 379.00,
+      "image": "assets/chiken_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+
+    },
+    {
+      "id": 6,
+      "name": "Cheese Burger",
+      "price": 349.00,
+      "image": "assets/chiken_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+
+    },
+    {
+      "id": 7,
+      "name": "Aloo Burger",
+      "price": 399.00,
+      "image": "assets/chiken_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+
+    },
+    {
+      "id": 8,
+      "name": "Cheese Burger",
+      "price": 389.00,
+      "image": "assets/chiken_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+
+    },
+    {
+      "id": 9,
+      "name": "Chese and Chips Burger",
+      "price": 379.00,
+      "image": "assets/chiken_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+
+    },
+    {
+      "id": 10,
+      "name": "Paneer Burger",
+      "price": 389.00,
+      "image": "assets/chiken_burger.png",
+      "stock": true,
+      "category": "Burgers",
+      "description":"A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor. Burgers are considered an American food but are popular around the world."
+
+    }
+
+  ]
+

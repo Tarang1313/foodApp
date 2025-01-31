@@ -1,0 +1,56 @@
+<app-navbar [headerName]="header"></app-navbar>
+
+<div class="product-details-container">
+
+  <div class="product-card">
+    <div class="image-container">
+      <img [src]="product?.image" alt="{{ product?.name }}">
+      <button class="favorite" >
+        ❤️
+      </button>
+    </div>
+  </div>
+
+  <div class="product-info">
+    <div class="price-stock-container">
+      <h2>{{ product?.name }}</h2>
+      <span class="price">₹{{ product?.price }}</span>
+    </div>
+
+    <div class="stock-rating">
+      <span class="stock" *ngIf="product?.stock">In Stock</span>
+
+    </div>
+    <div class="stock-rating">⭐⭐⭐⭐⭐</div>
+
+  </div>
+
+  <div class="quantity-container">
+    <h3 class="quantity-label">Product Quantity</h3>
+    <div class="quantity-selector">
+      <button class="decrease" [disabled]="quantity <= 1" (click)="decreaseQuantity()">-</button>
+      <span>{{ quantity }}</span>
+      <button class="increase" (click)="increaseQuantity()">+</button>
+    </div>
+  </div>
+
+
+  <div class="product-description">
+    <h3>Product Details</h3>
+    <p>
+      {{ product?.description | slice:0:150 }}...
+      <span class="read-more">Read More</span>
+    </p>
+  </div>
+
+
+  <div class="related-products">
+    <h3>Related Products</h3>
+    <div class="related-images">
+      <img *ngFor="let item of relatedProducts" [src]="item.image" alt="Related product">
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+
+

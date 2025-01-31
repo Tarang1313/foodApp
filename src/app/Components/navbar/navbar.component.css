@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFD700;
+  padding: 10px 20px;
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-icon img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}

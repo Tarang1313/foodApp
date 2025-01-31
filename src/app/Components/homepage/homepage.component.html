@@ -1,0 +1,21 @@
+<app-navbar [headerName]="header"></app-navbar>
+<div class="home">
+  <div class="search-container">
+    <input type="text" [(ngModel)]="searchTerm" (input)="searchProducts()" placeholder="Search products...">
+  </div>
+  <h1>Popular Items</h1>
+
+  <div class="products">
+    <div *ngFor="let product of filteredProducts" class="product-card">
+      <img [src]="product.image" [alt]="product.name" class="product-image" [routerLink]="['/product', product.id]" (click)="addToCart(product)">
+      <h3>{{ product.name }}</h3>
+      <p>Price: {{ product.price | currency }}</p>
+      <button (click)="addToCart(product)">Add to Cart</button>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
+
+
+
